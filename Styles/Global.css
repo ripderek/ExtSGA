@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/Fonts/Roboto/Roboto-Black.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(/Fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto";
+  font-weight: normal;
+}
+h1 {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+p {
+  font-family: "Roboto";
+  font-weight: normal;
+}
+
+.input-p:focus {
+  border: 4px solid #ffffff; /* Cambia el color del borde */
+  border-radius: 0px; /* Cambia el radio del borde */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Añade un efecto de sombra */
+  outline: none;
+}
+
+.bg-p-blue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 71 161 / var(--tw-bg-opacity));
+}
+
+.bg-p-blue-1000 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 25 57 / var(--tw-bg-opacity));
+}
+
+.bg-p-blue-2000 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 47 107 / var(--tw-bg-opacity));
+}
+
+.bg-p-yellow-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 216 53 / var(--tw-bg-opacity));
+}
+
+.text-p-yellow-700 {
+  --tw-text-opacity: 1;
+  color: rgb(251 192 45 / var(--tw-text-opacity));
+}
+
+.text-p-blue-1000 {
+  --tw-text-opacity: 1;
+  color: rgb(9 47 107 / var(--tw-text-opacity));
+}

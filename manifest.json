@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "ExtSGA",
+  "version": "1.0",
+  "description": "Extensión para el sga by Raul Coello",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://sga.uteq.edu.ec/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Eliminar elementos"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://sga.uteq.edu.ec/*"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "128": "logo.png"
+  }
+}
+ 
